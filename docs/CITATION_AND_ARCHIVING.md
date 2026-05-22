@@ -4,6 +4,22 @@ OMNIA-MINIMAL includes citation and archiving metadata.
 
 ---
 
+## DOI
+
+The real Zenodo DOI is:
+
+    10.5281/zenodo.20338347
+
+DOI link:
+
+    https://doi.org/10.5281/zenodo.20338347
+
+Zenodo record:
+
+    https://zenodo.org/records/20338347
+
+---
+
 ## Citation file
 
 The citation file is:
@@ -20,31 +36,23 @@ The Zenodo metadata file is:
 
     .zenodo.json
 
-This helps prepare the repository for archival publication.
+This file includes the DOI metadata for archival reference.
 
 ---
 
-## DOI
+## Recommended citation
 
-No DOI should be written manually before Zenodo generates it.
+Cite the archived release as:
 
-If Zenodo archives the GitHub release, it will generate a DOI.
-
-After the DOI exists, update:
-
-    CITATION.cff
-    README.md
-    RELEASE_NOTES.md
+    Brighindi, Massimiliano. OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness. Zenodo. https://doi.org/10.5281/zenodo.20338347
 
 ---
 
-## Recommended citation text
+## Repository
 
-Until a DOI exists, cite the repository as:
+The live GitHub repository is:
 
-    Brighindi, Massimiliano. OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness. GitHub repository, v0.6.0. https://github.com/Tuttotorna/OMNIA-MINIMAL
-
-After Zenodo generates a DOI, cite the archived release.
+    https://github.com/Tuttotorna/OMNIA-MINIMAL
 
 ---
 
@@ -52,7 +60,7 @@ After Zenodo generates a DOI, cite the archived release.
 
 Citation does not turn the repository into universal proof.
 
-It only makes the minimal demonstration identifiable, reproducible, and referenceable.
+It makes the minimal demonstration identifiable, reproducible, and referenceable.
 
 The claim remains:
 

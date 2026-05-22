@@ -154,6 +154,29 @@ for the linked repositories.
 
 ---
 
+## DOI
+
+OMNIA-MINIMAL is archived on Zenodo.
+
+DOI:
+
+    10.5281/zenodo.20338347
+
+DOI link:
+
+    https://doi.org/10.5281/zenodo.20338347
+
+Zenodo record:
+
+    https://zenodo.org/records/20338347
+
+Recommended citation:
+
+    Brighindi, Massimiliano. OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness. Zenodo. https://doi.org/10.5281/zenodo.20338347
+
+
+---
+
 ## Citation and archiving
 
 OMNIA-MINIMAL is release-ready and citation-ready.

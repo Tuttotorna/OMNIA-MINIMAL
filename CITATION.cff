@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it using the metadata below."
 title: "OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness"
-version: "v0.6.0"
-doi: ""
+version: "v0.6.2"
+doi: "10.5281/zenodo.20338347"
 date-released: "2026-05-22"
 authors:
   - family-names: "Brighindi"
     given-names: "Massimiliano"
 repository-code: "https://github.com/Tuttotorna/OMNIA-MINIMAL"
-url: "https://github.com/Tuttotorna/OMNIA-MINIMAL"
+url: "https://doi.org/10.5281/zenodo.20338347"
 license: "MIT"
 keywords:
   - "AI validation"
