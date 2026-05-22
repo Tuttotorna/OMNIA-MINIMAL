@@ -1,6 +1,39 @@
 # Changelog
 
 
+## v0.5.0
+
+Added clickable ecosystem navigation.
+
+### Added
+
+- `docs/ECOSYSTEM_READING_PATH.md`
+- `docs/CLICKABLE_ECOSYSTEM_INDEX.md`
+- `docs/WHAT_TO_READ_NEXT.md`
+
+### Purpose
+
+This version turns OMNIA-MINIMAL into a real navigation layer.
+
+It does not only list the other repositories.
+
+It provides clickable paths to:
+
+    local OMNIA-MINIMAL files
+    linked ecosystem repositories
+    browsable GitHub trees
+    verified files when available
+
+The claim remains narrow:
+
+    Correctness is not structural stability.
+
+The boundary remains unchanged:
+
+    measurement != inference != decision
+
+
+
 ## v0.4.0
 
 Added extended minimal dataset.

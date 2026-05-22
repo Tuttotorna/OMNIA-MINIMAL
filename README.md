@@ -154,6 +154,23 @@ for the linked repositories.
 
 ---
 
+## Clickable ecosystem navigation
+
+OMNIA-MINIMAL now includes a clickable reading path into the wider OMNIA ecosystem.
+
+Start here:
+
+- [docs/WHAT_TO_READ_NEXT.md](docs/WHAT_TO_READ_NEXT.md)
+- [docs/ECOSYSTEM_READING_PATH.md](docs/ECOSYSTEM_READING_PATH.md)
+- [docs/CLICKABLE_ECOSYSTEM_INDEX.md](docs/CLICKABLE_ECOSYSTEM_INDEX.md)
+
+These files do not only list repositories.
+
+They provide clickable links to the relevant repositories, browsable trees, and verified files when available.
+
+
+---
+
 ## Extended minimal dataset
 
 The repository now includes a slightly stronger minimal dataset.

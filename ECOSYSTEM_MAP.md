@@ -153,3 +153,16 @@ Important boundary:
 https://github.com/Tuttotorna/OMNIA-VALIDATION
 
 Validation, falsification, benchmark, artifact, and reproducibility layer.
+
+
+---
+
+# Clickable Navigation Layer
+
+For a clickable path through the ecosystem, see:
+
+- [docs/WHAT_TO_READ_NEXT.md](docs/WHAT_TO_READ_NEXT.md)
+- [docs/ECOSYSTEM_READING_PATH.md](docs/ECOSYSTEM_READING_PATH.md)
+- [docs/CLICKABLE_ECOSYSTEM_INDEX.md](docs/CLICKABLE_ECOSYSTEM_INDEX.md)
+
+These files include clickable links to repositories, browsable trees, and verified files.
