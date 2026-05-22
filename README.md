@@ -154,6 +154,30 @@ for the linked repositories.
 
 ---
 
+## Minimal paper
+
+A paper-style explanation of the repository is available here:
+
+    docs/MINIMAL_PAPER.md
+
+It defines:
+
+    Abstract
+    Problem
+    Claim
+    Method
+    Minimal Experiment
+    Results
+    Boundaries
+    Failure Conditions
+    Reproducibility
+
+The paper keeps the claim deliberately narrow:
+
+    Correctness is not structural stability.
+
+---
+
 ## Continuous validation
 
 This repository includes a GitHub Actions workflow.

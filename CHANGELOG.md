@@ -1,5 +1,31 @@
 # Changelog
 
+
+## v0.3.0
+
+Added paper-style research framing.
+
+### Added
+
+- `docs/MINIMAL_PAPER.md`
+- `docs/FAILURE_CONDITIONS.md`
+- `docs/REPRODUCIBILITY.md`
+- `docs/ABSTRACT.md`
+- README link to the minimal paper.
+
+### Purpose
+
+This version makes OMNIA-MINIMAL readable as a minimal falsifiable research object.
+
+The claim remains narrow:
+
+    Correctness is not structural stability.
+
+The boundary remains unchanged:
+
+    measurement != inference != decision
+
+
 ## v0.2.0
 
 Added automated reproducibility layer.
