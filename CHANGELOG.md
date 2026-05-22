@@ -1,6 +1,38 @@
 # Changelog
 
 
+## v0.4.0
+
+Added extended minimal dataset.
+
+### Added
+
+- Additional fragile cases across multiple transformation families.
+- `symbolic_fragile_001`
+- `paraphrase_stable_001`
+- `distractor_fragile_001`
+- `representation_fragile_001`
+- `docs/CASE_CATALOG.md`
+- `docs/EXTENDED_RESULTS.md`
+- `docs/EXTENDED_MINIMAL_DATASET.md`
+- `tests/test_extended_dataset.py`
+
+### Purpose
+
+This version strengthens the minimal demonstration without turning the repository into a large benchmark.
+
+The aim is to show that the FRAGILE signal is not a single isolated case.
+
+The claim remains narrow:
+
+    Correctness is not structural stability.
+
+The boundary remains unchanged:
+
+    measurement != inference != decision
+
+
+
 ## v0.3.0
 
 Added paper-style research framing.

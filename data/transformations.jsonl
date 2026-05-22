@@ -1,3 +1,6 @@
 {"transformation_id": "order_swap", "description": "Swap the order of equivalent quantities without changing the expected result."}
 {"transformation_id": "surface_rephrase", "description": "Rephrase the task while preserving the underlying structure."}
 {"transformation_id": "explicit_total", "description": "Expose the same total through a different surface form."}
+{"transformation_id": "symbol_reordering", "description": "Reorder symbolic variables while preserving the same relation and expected answer."}
+{"transformation_id": "distractor_clause", "description": "Add an irrelevant clause that should not change the expected answer."}
+{"transformation_id": "representation_change", "description": "Change the representational surface while preserving the underlying quantity."}

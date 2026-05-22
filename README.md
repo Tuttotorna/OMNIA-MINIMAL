@@ -154,6 +154,30 @@ for the linked repositories.
 
 ---
 
+## Extended minimal dataset
+
+The repository now includes a slightly stronger minimal dataset.
+
+It covers:
+
+    arithmetic variation
+    symbolic reordering
+    paraphrase stability
+    distractor clauses
+    representation change
+
+The goal is not scale.
+
+The goal is to show that the FRAGILE signal is not a single isolated example.
+
+See:
+
+    docs/CASE_CATALOG.md
+    docs/EXTENDED_RESULTS.md
+    docs/EXTENDED_MINIMAL_DATASET.md
+
+---
+
 ## Minimal paper
 
 A paper-style explanation of the repository is available here:
