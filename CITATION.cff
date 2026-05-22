@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness"
+version: "v0.6.0"
+doi: ""
+date-released: "2026-05-22"
+authors:
+  - family-names: "Brighindi"
+    given-names: "Massimiliano"
+repository-code: "https://github.com/Tuttotorna/OMNIA-MINIMAL"
+url: "https://github.com/Tuttotorna/OMNIA-MINIMAL"
+license: "MIT"
+keywords:
+  - "AI validation"
+  - "structural stability"
+  - "post-hoc measurement"
+  - "LLM evaluation"
+  - "robustness"
+  - "invariance"
+  - "silent failure"
+  - "OMNIA"
+abstract: >
+  OMNIA-MINIMAL is a minimal reproducible demonstration of the OMNIA ecosystem.
+  It demonstrates one narrow claim: correctness is not structural stability.
+  The repository shows that an output can pass surface correctness while failing
+  structural stability under independent transformations. OMNIA-MINIMAL does not
+  infer meaning, decide truth, or replace human judgment. It emits bounded
+  post-hoc structural signals: STABLE, FRAGILE, and DIVERGENT.

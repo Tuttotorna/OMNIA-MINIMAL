@@ -1,0 +1,16 @@
+{
+  "name": "OMNIA-MINIMAL",
+  "version": "v0.6.0",
+  "title": "Structural Stability Beyond Surface Correctness",
+  "repository": "https://github.com/Tuttotorna/OMNIA-MINIMAL",
+  "claim": "Correctness is not structural stability.",
+  "boundary": "measurement != inference != decision",
+  "signals": [
+    "STABLE",
+    "FRAGILE",
+    "DIVERGENT"
+  ],
+  "release_type": "minimal reproducible demonstration",
+  "author": "Massimiliano Brighindi",
+  "license": "MIT"
+}

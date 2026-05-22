@@ -154,6 +154,37 @@ for the linked repositories.
 
 ---
 
+## Citation and archiving
+
+OMNIA-MINIMAL is release-ready and citation-ready.
+
+Citation metadata:
+
+- [CITATION.cff](CITATION.cff)
+
+Release notes:
+
+- [RELEASE_NOTES.md](RELEASE_NOTES.md)
+
+Archiving metadata:
+
+- [.zenodo.json](.zenodo.json)
+
+Release checklist:
+
+- [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md)
+
+Citation and archiving notes:
+
+- [docs/CITATION_AND_ARCHIVING.md](docs/CITATION_AND_ARCHIVING.md)
+
+Boundary:
+
+    measurement != inference != decision
+
+
+---
+
 ## Clickable ecosystem navigation
 
 OMNIA-MINIMAL now includes a clickable reading path into the wider OMNIA ecosystem.

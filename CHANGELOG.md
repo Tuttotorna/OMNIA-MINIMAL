@@ -1,6 +1,46 @@
 # Changelog
 
 
+## v0.6.0
+
+Added citation and release metadata.
+
+### Added
+
+- `CITATION.cff`
+- `.zenodo.json`
+- `RELEASE_NOTES.md`
+- `docs/RELEASE_CHECKLIST.md`
+- `docs/CITATION_AND_ARCHIVING.md`
+- `version.json`
+
+### Purpose
+
+This version makes OMNIA-MINIMAL citation-ready, release-ready, and Zenodo-ready.
+
+The repository is now structured as a minimal reproducible research object:
+
+    demo
+    data
+    results
+    tests
+    CI
+    paper-style documentation
+    failure conditions
+    ecosystem navigation
+    citation metadata
+    release metadata
+
+The claim remains narrow:
+
+    Correctness is not structural stability.
+
+The boundary remains unchanged:
+
+    measurement != inference != decision
+
+
+
 ## v0.5.0
 
 Added clickable ecosystem navigation.
