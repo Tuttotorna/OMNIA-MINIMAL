@@ -1,5 +1,8 @@
 # OMNIA-MINIMAL
 
+[![OMNIA-MINIMAL CI](https://github.com/Tuttotorna/OMNIA-MINIMAL/actions/workflows/minimal-demo.yml/badge.svg)](https://github.com/Tuttotorna/OMNIA-MINIMAL/actions/workflows/minimal-demo.yml)
+
+
 **Correctness is not structural stability.**
 
 OMNIA-MINIMAL is the minimal reproducible entry point into the OMNIA ecosystem.
@@ -148,3 +151,22 @@ See:
     ECOSYSTEM_MAP.md
 
 for the linked repositories.
+
+---
+
+## Continuous validation
+
+This repository includes a GitHub Actions workflow.
+
+Every push runs:
+
+    python examples/run_minimal_demo.py
+    pytest -q
+
+The demo is therefore not only documented.
+
+It is automatically checked.
+
+See:
+
+    .github/workflows/minimal-demo.yml
