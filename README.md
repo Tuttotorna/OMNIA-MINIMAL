@@ -1,5 +1,7 @@
 # OMNIA-MINIMAL
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20338347.svg)](https://doi.org/10.5281/zenodo.20338347)
+
 [![OMNIA-MINIMAL CI](https://github.com/Tuttotorna/OMNIA-MINIMAL/actions/workflows/minimal-demo.yml/badge.svg)](https://github.com/Tuttotorna/OMNIA-MINIMAL/actions/workflows/minimal-demo.yml)
 
 
