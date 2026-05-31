@@ -21,6 +21,27 @@ OMNIA measures structural behavior after generation.
 
 ---
 
+
+## Foundational Principle
+
+OMNIA-MINIMAL is the minimal public demonstration of the L.O.N. Multi-Form Invariance Principle:
+
+> No single form is sovereign.
+
+In OMNIA-MINIMAL, this becomes:
+
+> No first correctness is sovereign.
+
+A response, result, or claim is not trusted because it appears correct once. It must preserve structural compatibility under simple, independent transformations of form.
+
+OMNIA-MINIMAL exists to expose the smallest reproducible version of this claim:
+
+> correctness once does not imply structural stability.
+
+See:
+
+- https://github.com/Tuttotorna/lon-mirror/tree/main/foundation
+
 ## The core problem
 
 Most evaluations ask:
