@@ -312,3 +312,37 @@ It is automatically checked.
 See:
 
     .github/workflows/minimal-demo.yml
+
+<!-- OMNIA_STRUCTURAL_EVALUATION_THRESHOLD -->
+
+## Technical threshold: Structural Evaluation over Admissible Transformations
+
+OMNIA-MINIMAL is now narrowed to one testable threshold object:
+
+single-form correctness is not structural stability.
+
+Operational formula:
+
+Fragility_T(M, x) = Dispersion({ Phi(M(T(x))) | T in T })
+
+Meaning:
+
+A system should not be evaluated only on one observed form.
+It should be evaluated across admissible transformations that change the form while preserving the task-relevant core.
+
+Low dispersion means structural stability.
+High dispersion means structural fragility.
+
+Key documents:
+
+- docs/STRUCTURAL_EVALUATION_OVER_ADMISSIBLE_TRANSFORMATIONS.md
+- docs/TECHNICAL_NOTE_ADMISSIBLE_TRANSFORMATIONS.md
+- docs/REVIEWER_FOLLOWUP_NOTE.md
+- examples/admissible_transformations_demo.py
+- data/admissible_transformation_cases.jsonl
+- results/structural_evaluation_results.md
+
+Boundary:
+
+OMNIA-MINIMAL does not decide truth, intelligence, or final reliability.
+It measures output compatibility across admissible transformations.

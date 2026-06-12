@@ -1,0 +1,116 @@
+[
+  {
+    "case_id": "stable_ball_count",
+    "description": "Same arithmetic core across admissible wording/order transformations.",
+    "expected_core": "5",
+    "extracted_values": [
+      "5",
+      "5",
+      "5"
+    ],
+    "dispersion": 0.0,
+    "classification": "STABLE",
+    "variants": [
+      {
+        "transformation": "original",
+        "input": "A box contains 3 red balls and 2 blue balls. How many balls are in the box?",
+        "output": "5",
+        "extracted_core": "5",
+        "expected_core": "5",
+        "matches_expected": true
+      },
+      {
+        "transformation": "reorder",
+        "input": "A box contains 2 blue balls and 3 red balls. How many balls are in the box?",
+        "output": "There are 5 balls.",
+        "extracted_core": "5",
+        "expected_core": "5",
+        "matches_expected": true
+      },
+      {
+        "transformation": "irrelevant_clause",
+        "input": "A box contains 3 red balls and 2 blue balls. The box is made of wood. How many balls are in the box?",
+        "output": "The box contains five balls.",
+        "extracted_core": "5",
+        "expected_core": "5",
+        "matches_expected": true
+      }
+    ]
+  },
+  {
+    "case_id": "fragile_ball_count",
+    "description": "One admissible transformation causes an incompatible output.",
+    "expected_core": "5",
+    "extracted_values": [
+      "5",
+      "5",
+      "6"
+    ],
+    "dispersion": 0.6666666666666666,
+    "classification": "FRAGILE",
+    "variants": [
+      {
+        "transformation": "original",
+        "input": "A box contains 3 red balls and 2 blue balls. How many balls are in the box?",
+        "output": "5",
+        "extracted_core": "5",
+        "expected_core": "5",
+        "matches_expected": true
+      },
+      {
+        "transformation": "reorder",
+        "input": "A box contains 2 blue balls and 3 red balls. How many balls are in the box?",
+        "output": "There are 5 balls.",
+        "extracted_core": "5",
+        "expected_core": "5",
+        "matches_expected": true
+      },
+      {
+        "transformation": "irrelevant_clause",
+        "input": "A box contains 3 red balls and 2 blue balls. The box is made of wood. How many balls are in the box?",
+        "output": "6",
+        "extracted_core": "6",
+        "expected_core": "5",
+        "matches_expected": false
+      }
+    ]
+  },
+  {
+    "case_id": "format_stable_sum",
+    "description": "The same sum represented in digits and words remains compatible.",
+    "expected_core": "12",
+    "extracted_values": [
+      "12",
+      "12",
+      "12"
+    ],
+    "dispersion": 0.0,
+    "classification": "STABLE",
+    "variants": [
+      {
+        "transformation": "digits",
+        "input": "What is 7 + 5?",
+        "output": "12",
+        "extracted_core": "12",
+        "expected_core": "12",
+        "matches_expected": true
+      },
+      {
+        "transformation": "words",
+        "input": "What is seven plus five?",
+        "output": "twelve",
+        "extracted_core": "12",
+        "expected_core": "12",
+        "matches_expected": true
+      },
+      {
+        "transformation": "sentence",
+        "input": "Add seven objects to five objects. How many objects are there?",
+        "output": "There are 12 objects.",
+        "extracted_core": "12",
+        "expected_core": "12",
+        "matches_expected": true
+      }
+    ]
+  }
+]
