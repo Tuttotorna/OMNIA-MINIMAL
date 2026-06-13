@@ -1,28 +1,30 @@
 {
-  "title": "OMNIA-MINIMAL: OMNIA Structural Observability Repository",
+  "title": "OMNIA-MINIMAL: Structural Evaluation over Admissible Transformations",
   "upload_type": "software",
-  "description": "OMNIA-MINIMAL is part of the OMNIA ecosystem for structural observability, stability, fragility, and evaluation under transformation.",
+  "description": "OMNIA-MINIMAL defines a minimal technical threshold for structural evaluation over admissible transformations: single-form correctness is not structural stability.",
   "creators": [
     {
       "name": "Brighindi, Massimiliano",
       "affiliation": "Independent researcher"
     }
   ],
+  "access_right": "open",
   "keywords": [
     "OMNIA",
+    "OMNIABASE",
     "structural observability",
     "stability",
     "fragility",
-    "transformations"
+    "admissible transformations",
+    "AI evaluation",
+    "dispersion",
+    "structural evaluation"
   ],
-  "language": "eng",
-  "access_right": "open",
   "related_identifiers": [
     {
       "identifier": "https://github.com/Tuttotorna/OMNIA-MINIMAL",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ],
-  "license": "MIT"
+  ]
 }

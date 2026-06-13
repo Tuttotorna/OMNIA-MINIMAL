@@ -371,3 +371,34 @@ Zenodo note:
 GitHub-Zenodo archiving works after the repository is enabled in Zenodo GitHub settings and a GitHub release is created.
 
 <!-- OMNIA_ZENODO_CITATION_BLOCK_END -->
+
+<!-- ZENODO_REMAINING_REPAIR_BLOCK_START -->
+
+## Zenodo repair / archival metadata
+
+This repository has been updated with clean Zenodo and citation metadata.
+
+Repository:
+https://github.com/Tuttotorna/OMNIA-MINIMAL
+
+Repair release tag:
+zenodo-repair-remaining-20260613-070535-omnia-minimal
+
+Metadata files:
+
+- .zenodo.json
+- CITATION.cff
+
+Purpose:
+
+- provide clean GitHub-Zenodo archival metadata;
+- provide a valid citation file;
+- trigger a fresh GitHub release for Zenodo processing;
+- reduce risk from old failed or incomplete Zenodo release attempts.
+
+Important note:
+
+Old failed Zenodo attempts may remain visible in Zenodo history.
+The relevant state is whether the newest repair release becomes Published.
+
+<!-- ZENODO_REMAINING_REPAIR_BLOCK_END -->

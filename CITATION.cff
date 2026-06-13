@@ -1,11 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
-title: "OMNIA-MINIMAL: OMNIA Structural Observability Repository"
+title: "OMNIA-MINIMAL: Structural Evaluation over Admissible Transformations"
 authors:
   - family-names: "Brighindi"
     given-names: "Massimiliano"
     affiliation: "Independent researcher"
-version: "v0.6.2"
 date-released: 2026-06-13
 url: "https://github.com/Tuttotorna/OMNIA-MINIMAL"
 type: software
