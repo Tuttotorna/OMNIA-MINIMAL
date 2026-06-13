@@ -346,3 +346,28 @@ Boundary:
 
 OMNIA-MINIMAL does not decide truth, intelligence, or final reliability.
 It measures output compatibility across admissible transformations.
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_START -->
+
+## Citation and archival
+
+This repository is prepared for GitHub-Zenodo archival.
+
+Repository:
+https://github.com/Tuttotorna/OMNIA-MINIMAL
+
+Latest GitHub release: v0.6.2 (https://github.com/Tuttotorna/OMNIA-MINIMAL/releases/tag/v0.6.2)
+
+Detected Zenodo DOI(s):
+- https://doi.org/10.5281/zenodo.20338347
+
+Metadata files used for archival/citation:
+
+- .zenodo.json
+- CITATION.cff
+
+Zenodo note:
+
+GitHub-Zenodo archiving works after the repository is enabled in Zenodo GitHub settings and a GitHub release is created.
+
+<!-- OMNIA_ZENODO_CITATION_BLOCK_END -->

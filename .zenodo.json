@@ -1,36 +1,28 @@
 {
-  "title": "OMNIA-MINIMAL: Structural Stability Beyond Surface Correctness",
+  "title": "OMNIA-MINIMAL: OMNIA Structural Observability Repository",
   "upload_type": "software",
-  "description": "OMNIA-MINIMAL is a minimal reproducible demonstration of the OMNIA ecosystem. It demonstrates one narrow claim: correctness is not structural stability. The repository shows that an output can pass surface correctness while failing structural stability under independent transformations. OMNIA-MINIMAL does not infer meaning, decide truth, or replace human judgment. It emits bounded post-hoc structural signals: STABLE, FRAGILE, and DIVERGENT.",
+  "description": "OMNIA-MINIMAL is part of the OMNIA ecosystem for structural observability, stability, fragility, and evaluation under transformation.",
   "creators": [
     {
-      "name": "Brighindi, Massimiliano"
+      "name": "Brighindi, Massimiliano",
+      "affiliation": "Independent researcher"
     }
   ],
-  "license": "MIT",
   "keywords": [
-    "AI validation",
-    "structural stability",
-    "post-hoc measurement",
-    "LLM evaluation",
-    "robustness",
-    "invariance",
-    "silent failure",
-    "OMNIA"
+    "OMNIA",
+    "structural observability",
+    "stability",
+    "fragility",
+    "transformations"
   ],
-  "doi": "10.5281/zenodo.20338347",
+  "language": "eng",
+  "access_right": "open",
   "related_identifiers": [
     {
       "identifier": "https://github.com/Tuttotorna/OMNIA-MINIMAL",
       "relation": "isSupplementTo",
-      "resource_type": "software"
-    },
-    {
-      "identifier": "https://doi.org/10.5281/zenodo.20338347",
-      "relation": "isIdenticalTo",
-      "resource_type": "software"
+      "scheme": "url"
     }
   ],
-  "communities": [],
-  "notes": "Boundary: measurement != inference != decision. A stable signal is not automatically true. A fragile signal is not automatically false. The output is a structural signal, not a verdict."
+  "license": "MIT"
 }
