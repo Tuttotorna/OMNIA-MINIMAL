@@ -402,3 +402,49 @@ Old failed Zenodo attempts may remain visible in Zenodo history.
 The relevant state is whether the newest repair release becomes Published.
 
 <!-- ZENODO_REMAINING_REPAIR_BLOCK_END -->
+
+<!-- OMNIA_METAMORPHIC_ALIGNMENT_START -->
+
+## Relation to metamorphic testing
+
+The closest existing technical family for OMNIA-MINIMAL appears to be metamorphic testing.
+
+OMNIA-MINIMAL does not claim to replace metamorphic testing.
+
+The current structural formula is:
+
+Fragility_T(M, x) = Dispersion({ Phi(M(T(x))) | T in T })
+
+A more metamorphic-testing-oriented specialization is:
+
+Fragility_{T,R,Phi}(M,x) = ViolationRate_R({ Phi(M(T_i(x))) | T_i in T })
+
+Meaning:
+
+- T = admissible transformations;
+- Phi = task-relevant output property extractor;
+- R = expected compatibility relation or metamorphic relation;
+- ViolationRate_R = rate of violation of the expected relation.
+
+This alignment is important because admissible transformations alone are not enough.
+
+A complete evaluation should define:
+
+1. the transformation family;
+2. the extracted property;
+3. the expected compatibility relation;
+4. the dispersion or violation metric.
+
+New alignment document:
+
+- docs/METAMORPHIC_TESTING_ALIGNMENT.md
+
+Safe positioning:
+
+OMNIA-MINIMAL is a structural framing of evaluation over admissible transformations and expected compatibility relations.
+
+Metamorphic testing is the closest existing family.
+
+Prompt sensitivity, invariance testing, robustness evaluation, and representation sensitivity can be read as related cases when they evaluate compatibility across controlled transformations.
+
+<!-- OMNIA_METAMORPHIC_ALIGNMENT_END -->

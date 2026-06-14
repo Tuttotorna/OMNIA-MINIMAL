@@ -149,3 +149,32 @@ The contribution is not the claim that prompt sensitivity exists.
 The contribution is the broader framing:
 
 single-form evaluation should be replaced, where relevant, by evaluation over admissible transformation families.
+
+<!-- METAMORPHIC_ALIGNMENT_TECHNICAL_START -->
+
+## Relation to metamorphic testing
+
+Metamorphic testing is the closest existing technical family for this formulation.
+
+The present formula:
+
+Fragility_T(M, x) = Dispersion({ Phi(M(T(x))) | T in T })
+
+can be read as a general structural instability signal.
+
+When an explicit expected relation is available, the formula can be specialized into a metamorphic-testing form:
+
+Fragility_{T,R,Phi}(M,x) = ViolationRate_R({ Phi(M(T_i(x))) | T_i in T })
+
+In this form:
+
+- T defines the admissible transformations;
+- Phi extracts the task-relevant output property;
+- R defines the expected compatibility relation across outputs;
+- ViolationRate_R measures failures of that relation.
+
+This does not replace metamorphic testing.
+
+It places OMNIA-MINIMAL near metamorphic testing while preserving the broader structural language of stability, fragility, dispersion, and admissible transformations.
+
+<!-- METAMORPHIC_ALIGNMENT_TECHNICAL_END -->

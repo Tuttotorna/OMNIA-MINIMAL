@@ -1,7 +1,7 @@
 {
   "title": "OMNIA-MINIMAL: Structural Evaluation over Admissible Transformations",
   "upload_type": "software",
-  "description": "OMNIA-MINIMAL defines a minimal technical threshold for structural evaluation over admissible transformations: single-form correctness is not structural stability.",
+  "description": "OMNIA-MINIMAL defines a minimal technical threshold for structural evaluation over admissible transformations: single-form correctness is not structural stability. This release adds an explicit alignment between OMNIA-MINIMAL and metamorphic testing, including the expected compatibility relation R and the violation-rate specialization.",
   "creators": [
     {
       "name": "Brighindi, Massimiliano",
@@ -18,7 +18,9 @@
     "admissible transformations",
     "AI evaluation",
     "dispersion",
-    "structural evaluation"
+    "structural evaluation",
+    "metamorphic testing",
+    "metamorphic relation"
   ],
   "related_identifiers": [
     {
