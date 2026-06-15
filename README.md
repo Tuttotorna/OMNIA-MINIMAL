@@ -1,5 +1,45 @@
 # OMNIA-MINIMAL
 
+<!-- INFINITY_FIRST_OMNIA_MINIMAL_START -->
+## Infinity-First OMNIA Minimal
+
+OMNIA-MINIMAL is not a small fragment of OMNIA.
+
+It is the minimal public doorway into the same total field.
+
+The central correction is:
+
+**Correct is not stable.**
+
+A finite answer can be locally correct and still structurally unstable.
+
+A local success becomes structurally dangerous when it is treated as autonomous, complete, or total.
+
+OMNIA-MINIMAL exists to expose the smallest form of this error:
+
+**local correctness mistaken for total stability.**
+
+The governing law is formalized here:
+
+[LAW OF TOTALITY](https://github.com/Tuttotorna/LAW-OF-TOTALITY)
+
+Public threshold release:
+
+[LAW OF TOTALITY v0.1.2](https://github.com/Tuttotorna/LAW-OF-TOTALITY/releases/tag/v0.1.2)
+
+DOI:
+
+[10.5281/zenodo.20700914](https://doi.org/10.5281/zenodo.20700914)
+
+Core document:
+
+[INFINITY-FIRST-OMNIA-MINIMAL.md](INFINITY-FIRST-OMNIA-MINIMAL.md)
+
+First applied case:
+
+[APPLIED-CASE-001-CORRECT-IS-NOT-STABLE.md](APPLIED-CASE-001-CORRECT-IS-NOT-STABLE.md)
+<!-- INFINITY_FIRST_OMNIA_MINIMAL_END -->
+
 <!-- TOTALITY_FIELD_ALIGNMENT_START -->
 ## Totality Field Alignment
 
